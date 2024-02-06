@@ -1,0 +1,192 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        {
+            "LogName": "Add stocks to Saloon",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Saloon",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_CrispyAbaloneRecipe": {
+                    "Id": "ItsBenter.ShellCollection_CrispyAbaloneRecipe",
+                    "ItemId": "ItsBenter.ShellCollection_CrispyAbalone",
+                    "Condition": "RANDOM 0.5",
+                    "IsRecipe": true,
+                    "Price": 200
+                },
+                "ItsBenter.ShellCollection_PurplePlateRecipe": {
+                    "Id": "ItsBenter.ShellCollection_PurplePlateRecipe",
+                    "ItemId": "ItsBenter.ShellCollection_PurplePlateRecipe",
+                    "Condition": "RANDOM 0.5",
+                    "IsRecipe": true,
+                    "Price": 150
+                }
+            }
+        },
+        {
+            "LogName": "Add stocks to Desert Trader",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "DesertTrade",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalRarecrow2": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow2",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow2",
+                    "Condition": "DAY_OF_WEEK Monday Wednesday Friday Sunday",
+                    "TradeItemId": "ItsBenter.ShellCollection_RedTrumpet",
+                    "TradeItemAmount": 25,
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow4": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow4",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow4",
+                    "Condition": "DAY_OF_WEEK Tuesday Thursday Saturday",
+                    "TradeItemId": "ItsBenter.ShellCollection_CrystalCowrie",
+                    "TradeItemAmount": 15,
+                },
+                "ItsBenter.ShellCollection_PrismaticShard": {
+                    "Id": "ItsBenter.ShellCollection_PrismaticShard",
+                    "ItemId": "74", //Prismatic Shard
+                    "TradeItemId": "ItsBenter.ShellCollection_SandBucks",
+                    "TradeItemAmount": 50,
+                },
+                "ItsBenter.ShellCollection_IridiumBar": {
+                    "Id": "ItsBenter.ShellCollection_IridiumBar",
+                    "ItemId": "337", //Iridium Bar
+                    "TradeItemId": "ItsBenter.ShellCollection_CoralShell",
+                    "TradeItemAmount": 10,
+                }
+            }
+        },
+        {
+            "LogName": "Add stocks to Casino",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Casino",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalRarecrow6": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow6",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow6",
+                    "Condition": "PLAYER_HAS_MAIL Any willyBoatFixed",
+                    "Price": 12000
+                }
+            }
+        },
+        {
+            "LogName": "Add stocks to Island Trader",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IslandTrade",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_GingerAle": {
+                    "Id": "ItsBenter.ShellCollection_GingerAle",
+                    "ItemId": "903", //Ginger Ale
+                    "TradeItemId": "ItsBenter.ShellCollection_SandBucks",
+                    "TradeItemAmount": 15,
+                },
+                "ItsBenter.ShellCollection_DishOTheSea": {
+                    "Id": "ItsBenter.ShellCollection_DishOTheSea",
+                    "ItemId": "242", //Dish O' The Sea
+                    "Condition": "!WEATHER Here Rain Storm",
+                    "TradeItemId": "ItsBenter.ShellCollection_LimpetShell",
+                    "TradeItemAmount": 25,
+                },
+                "ItsBenter.ShellCollection_SeafoamPudding": {
+                    "Id": "ItsBenter.ShellCollection_SeafoamPudding",
+                    "ItemId": "265", //Seafoam Pudding
+                    "Condition": "WEATHER Here Rain Storm",
+                    "TradeItemId": "ItsBenter.ShellCollection_RedTrumpet",
+                    "TradeItemAmount": 2,
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow7": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow7",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow7",
+                    "Condition": "RANDOM 0.2",
+                    "TradeItemId": "393", //Coral
+                    "TradeItemAmount": 20,
+                }
+            }
+        },
+        {
+            "LogName": "Add stocks to Willy Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "FishShop",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalRarecrow8": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow8",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow8",
+                    "Condition": "PLAYER_HAS_MAIL Any willyBoatFixed",
+                    "Price": 3500
+                },
+                "ItsBenter.ShellCollection_SandBucksParcelRecipe": {
+                    "Id": "ItsBenter.ShellCollection_SandBucksParcelRecipe",
+                    "ItemId": "ItsBenter.ShellCollection_SandBucksParcelRecipe",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current ItsBenter.ShellCollection_GiftFromWilly",
+                    "IsRecipe": true,
+                    "Price": 550
+                },
+                "ItsBenter.ShellCollection_MolluskSoupRecipe": {
+                    "Id": "ItsBenter.ShellCollection_MolluskSoupRecipe",
+                    "ItemId": "ItsBenter.ShellCollection_MolluskSoupRecipe",
+                    "Condition": "RANDOM 0.5 PLAYER_HAS_SEEN_EVENT Current ItsBenter.ShellCollection_GiftFromWilly",
+                    "IsRecipe": true,
+                    "Price": 350
+                }
+            }
+        },
+        {
+            "LogName": "Add stocks to Travelling Merchant",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalRarecrow3": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow3",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow3",
+                    "Condition": "RANDOM 0.25 SEASON fall winter",
+                    "Price": 2000
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow5": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow5",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow5",
+                    "Condition": "RANDOM 0.25 SEASON spring summer",
+                    "Price": 3500
+                },
+            }
+        },
+        {
+            "LogName": "Add stocks to Krobus Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "ShadowShop",
+                "Items"
+            ],
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalRarecrow1": {
+                    "Id": "ItsBenter.ShellCollection_NauticalRarecrow1",
+                    "ItemId": "(B)ItsBenter.ShellCollection_NauticalRarecrow1",
+                    "Price": 5000
+                }
+            }
+        }
+    ]
+}

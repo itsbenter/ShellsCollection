@@ -1,0 +1,77 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        {
+            "LogName": "Overrides recipes to use Context Tags when SpaceCore is installed",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+            "When": {
+                "HasMod |contains=spacechase0.SpaceCore": true
+            },
+            "Entries": {
+                "ItsBenter.ShellCollection_BraisedScallopRecipe": {
+                    //Forage of Ferngill has Ferngill Scallop
+                    //More New Fish
+                    "ProductQualifiedId": "ItsBenter.ShellCollection_BraisedScallop",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "Item",
+                            "Value": "(O)88",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)248",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "scallop_item",
+                            "Amount": 1,
+                            "OverrideText": "Any scallop",
+                            "OverrideTexturePath": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                            "OverrideTextureRect": {
+                                "X": 32,
+                                "Y": 48,
+                                "Width": 16,
+                                "Height": 16
+                            }
+                        }
+                    ]
+                },
+                "ItsBenter.ShellCollection_BraisedScallopRecipe": {
+                    //Forage of Ferngill
+                    //More New Fish
+                    "ProductQualifiedId": "ItsBenter.ShellCollection_BraisedScallop",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "Item",
+                            "Value": "(O)88",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)248",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "scallop_item",
+                            "Amount": 1,
+                            "OverrideText": "Any scallop",
+                            "OverrideTexturePath": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                            "OverrideTextureRect": {
+                                "X": 32,
+                                "Y": 48,
+                                "Width": 16,
+                                "Height": 16
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

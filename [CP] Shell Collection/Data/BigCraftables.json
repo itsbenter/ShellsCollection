@@ -1,0 +1,171 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        {
+            "LogName": "Load big craftables images",
+            "Action": "Load",
+            "Target": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+            "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Add objects",
+            "Action": "EditData",
+            "Target": "Data/BigCraftable",
+            "Entries": {
+                "ItsBenter.ShellCollection_NauticalScarecrow": {
+                    "Name": "Nautical Rarecrow 1",
+                    "Displayname": "{{i18n:NauticalScarecrow_Name}}",
+                    "Description": "{{i18n:NauticalScarecrow_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow1": {
+                    "Name": "Nautical Rarecrow 1",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow1_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow2": {
+                    "Name": "Nautical Rarecrow 2",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow2_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow3": {
+                    "Name": "Nautical Rarecrow 3",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow3_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow4": {
+                    "Name": "Nautical Rarecrow 4",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow4_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow5": {
+                    "Name": "Nautical Rarecrow 5",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow5_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow6": {
+                    "Name": "Nautical Rarecrow 6",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow6_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow7": {
+                    "Name": "Nautical Rarecrow 7",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow7_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+                "ItsBenter.ShellCollection_NauticalRarecrow8": {
+                    "Name": "Nautical Rarecrow 8",
+                    "Displayname": "{{i18n:NauticalRarecrow_Name}}",
+                    "Description": "{{i18n:NauticalRarecrow8_Description}}",
+                    "Price": 0,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/BigCraftables",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_9"
+                    ],
+                    "CustomFields": {}
+                },
+            }
+        }
+    ]
+}

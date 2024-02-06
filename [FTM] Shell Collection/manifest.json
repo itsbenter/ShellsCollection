@@ -1,0 +1,17 @@
+{
+	"Name": "[FTM] Shell Collection",
+	"Author": "ItsBenter",
+	"Version": "2.0.0",
+	"Description": "Spawns shell forages in the Beach and Ginger Island.",
+	"UniqueID": "ItsBenter.ShellColletion",
+	"MinimumApiVersion": "3.8.1",
+	"UpdateKeys": ["Nexus:????"],
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager"
+	},
+	"Dependencies": [{
+			"UniqueID": "ItsBenter.ShellCollection.CP",
+			"IsRequired": true
+		}
+	]
+}

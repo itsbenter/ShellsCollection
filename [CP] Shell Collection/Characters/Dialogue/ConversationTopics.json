@@ -1,0 +1,21 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Changes": [
+		{
+			"LogName": "Conversation Topic: After Shell Necklace - Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"ItsBenter.ShellCollection.CT_GiftFromWilly": "{{i18n:CT_GiftFromWilly.Willy}}"
+			}
+		},
+		{
+			"LogName": "Conversation Topic: After Coral Project Special Order - Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"ItsBenter.ShellCollection.CT_CoralOrderCompleted": "{{i18n:CT_CoralOrderCompleted.Maru}}"
+			}
+		}
+	]
+}

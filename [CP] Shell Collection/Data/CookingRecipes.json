@@ -1,0 +1,16 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        {
+            "LogName": "Add cooking recipes data",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "ItsBenter.ShellCollection_CrispyAbaloneRecipe": "247 1 ItsBenter.ShellCollection_DottedAbalone 1//ItsBenter.ShellCollection_CrispyAbalone/null/", //oil 1, dotted abalone 1
+                "ItsBenter.ShellCollection_BraisedScallopRecipe": "88 1 248 1 ItsBenter.ShellCollection_WingedScallop 1//ItsBenter.ShellCollection_BraisedScallop/null/", //garlic 1. coconut 1, winged scallop 1
+                "ItsBenter.ShellCollection_PurplePlateRecipe": "299 1 266 1 ItsBenter.ShellCollection_WingedScallop 1//ItsBenter.ShellCollection_PurplePlate/null/", //amaranth 1, red cabbage 1, winged scallop 1
+                "ItsBenter.ShellCollection_MolluskRecipe": "719 1 ItsBenter.ShellCollection_WingedScallop 1 ItsBenter.ShellCollection_DottedAbalone 1 153 1//ItsBenter.ShellCollection_PurplePlate/null/", //mussel 1, dotted abalone 1, common scallop 1, green algae 1
+            }
+        }
+    ]
+}
