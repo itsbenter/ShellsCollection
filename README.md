@@ -63,6 +63,7 @@ Cookings added by this mod make use of [Crab Pot Fishes](#crab_pot_fishes) as in
 | ----- | ---------- | ---------- | ----------- | ------------- |
 | ![Shell Necklace](Documentation/Objects/ShellNecklace.png) | [Shell Necklace](Documentation/Objects/ShellNecklace.md) | 650g | Clam: 1 <br> Rainbow Shell: 1 <br> Crystal Cowrie: 1 <br> Kitten Paw: 1 <br> Blue Conch: 1 | [Gift From Willy](Documentation/Events/GiftFromWilly.md) event |
 | ![Sand Bucks Parcel](Documentation/Objects/SandBucksParcel.png) | [Sand Bucks Parcel](Documentation/Objects/SandBucksParcel.md) | 625g | Sand bucks: 5 <br> Cloth: 1 | Purchase at Willy shop for 550g after receiving "Some More Stock" mail from Willy |
+| ![Coral Fence](Documentation/Objects/CoralFence.png) | [Coral Fence](Documentation/Objects/CoralFence.md) | 625g | Sand bucks: 5 <br> Cloth: 1 | Purchase at Willy shop for 550g after receiving "Some More Stock" mail from Willy |
 
 ### Scarecrows
 
@@ -70,7 +71,7 @@ This mod adds [Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.md
 
 | Image | Craftable | Ingredients | Recipe Source |
 | ----- | ---------- | ----------- | ------------- |
-| ![Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.png) | [Shell Necklace](Documentation/Scarecrows/NauticalScarecrow.md) | Wood: 50 <br> Coconut: 1 <br> Fiber: 20 | [Gift From Willy](Documentation/Events/GiftFromWilly.md) event |
+| ![Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.png) | [Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.md) | Wood: 50 <br> Coconut: 1 <br> Fiber: 20 | [Gift From Willy](Documentation/Events/GiftFromWilly.md) event |
 
 ### Nautical Rarecrows
 
