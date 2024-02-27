@@ -77,6 +77,8 @@
 	"SandBucksParcel_Description": "A decorated pocket of sand bucks. Small trinket that said to bring excellent fortune.",
 	"ShellNecklace_Name": "Shell Necklace",
 	"ShellNecklace_Description": "Neck accesories with sea shells on it.",
+	"CoralFence_Name": "Coral Fence",
+	"CoralFence_Description": "Alternative fence material. As durable as hardwood fence.",
 
 	//Events
 	"GiftFromWilly.Willy.1": "Oh, look who's comin.",

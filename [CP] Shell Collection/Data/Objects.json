@@ -28,7 +28,7 @@
         {
             "LogName": "Load objects images",
             "Action": "Load",
-            "Target": "Mods/ItsBenter.ShellCollection/TileSheets/Shells, Mods/ItsBenter.ShellCollection/TileSheets/Cookings, Mods/ItsBenter.ShellCollection/TileSheets/Craftable",
+            "Target": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
             "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
         },
         {
@@ -43,7 +43,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 30,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "color_blue",
@@ -63,7 +63,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 45,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 1,
                     "ContextTags": [
                         "color_yellow",
@@ -82,7 +82,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 75,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 2,
                     "ContextTags": [
                         "color_blue",
@@ -101,7 +101,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 30,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 4,
                     "ContextTags": [
                         "color_pink",
@@ -119,7 +119,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 100,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 5,
                     "ContextTags": [
                         "color_purple",
@@ -137,7 +137,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 15,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 6,
                     "ContextTags": [
                         "color_sand",
@@ -158,7 +158,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 75,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 7,
                     "ContextTags": [
                         "color_brown",
@@ -176,7 +176,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 20,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 8,
                     "ContextTags": [
                         "color_red",
@@ -194,7 +194,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 40,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 9,
                     "ContextTags": [
                         "color_brown",
@@ -212,7 +212,7 @@
                     "Type": "Objects",
                     "Category": -23,
                     "Price": 5,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 10,
                     "ContextTags": [
                         "color_gray",
@@ -233,7 +233,7 @@
                     "Type": "Objects",
                     "Category": -4,
                     "Price": 55,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 3,
                     "ContextTags": [
                         "color_green",
@@ -255,7 +255,7 @@
                     "Type": "Objects",
                     "Category": -4,
                     "Price": 30,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Shells",
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
                     "SpriteIndex": 11,
                     "ContextTags": [
                         "color_gray",
@@ -278,8 +278,8 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 100,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Cookings",
-                    "SpriteIndex": 0,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 20,
                     "Edibility": 36,
                     "IsDrink": false,
                     "Buff": {
@@ -309,8 +309,8 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 220,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Cookings",
-                    "SpriteIndex": 1,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 21,
                     "Edibility": 100,
                     "IsDrink": false,
                     "Buff": {},
@@ -326,8 +326,8 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 370,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Cookings",
-                    "SpriteIndex": 2,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 23,
                     "Edibility": 110,
                     "IsDrink": false,
                     "Buff": {
@@ -357,8 +357,8 @@
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": 175,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Cookings",
-                    "SpriteIndex": 3,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 22,
                     "Edibility": 120,
                     "IsDrink": false,
                     "Buff": {
@@ -387,11 +387,11 @@
                     "Name": "Sand Bucks Parcel",
                     "Displayname": "{{i18n:SandBucksParcel_Name}}",
                     "Description": "{{i18n:SandBucksParcel_Description}}",
-                    "Type": "Objects",
+                    "Type": "Crafting",
                     "Category": -8,
                     "Price": 625,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Craftable",
-                    "SpriteIndex": 0,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 30,
                     "ContextTags": [
                         "color_brown",
                     ]
@@ -400,11 +400,22 @@
                     "Name": "Shell Necklace",
                     "Displayname": "{{i18n:ShellNecklace_Name}}",
                     "Description": "{{i18n:ShellNecklace_Description}}",
-                    "Type": "Objects",
+                    "Type": "Crafting",
                     "Category": -8,
                     "Price": 650,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Craftable",
-                    "SpriteIndex": 1,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 31,
+                    "ContextTags": []
+                },
+                "ItsBenter.ShellCollection_CoralFence": {
+                    "Name": "Coral Fence",
+                    "Displayname": "{{i18n:CoralFence_Name}}",
+                    "Description": "{{i18n:CoralFence_Description}}",
+                    "Type": "Crafting",
+                    "Category": -8,
+                    "Price": 10,
+                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/Objects",
+                    "SpriteIndex": 32,
                     "ContextTags": []
                 },
             }
