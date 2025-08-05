@@ -6,22 +6,22 @@
 			"Action": "EditData",
 			"Target": "Data/SpecialOrders",
 			"Entries": {
-				"ShellCollection.CoralOrder": {
-					"Name": "[ShellCollection.CoralOrder_Name]",
+				"{{ModId}}_CoralOrder": {
+					"Name": "[{{ModId}}_CoralOrder_Name]",
 					"Requester": "Demetrius",
 					"Duration": "Month",
 					"Repeatable": "True",
 					"RequiredTags": "",
 					"OrderType": "",
 					"SpecialRule": "",
-					"Text": "[ShellCollection.CoralOrder.Text]",
+					"Text": "[{{ModId}}_CoralOrder.Text]",
 					"ItemToRemoveOnEnd": null,
 					"MailToRemoveOnEnd": null,
 					"RandomizedElements": null,
 					"Objectives": [
 						{
 							"Type": "Collect",
-							"Text": "[ShellCollection.CoralOrder_Objective_0_Text]",
+							"Text": "[{{ModId}}_CoralOrder_Objective_0_Text]",
 							"RequiredCount": "12",
 							"Data": {
 								"AcceptedContextTags": "item_coral"
@@ -29,7 +29,7 @@
 						},
 						{
 							"Type": "Donate",
-							"Text": "[ShellCollection.CoralOrder_Objective_1_Text]",
+							"Text": "[{{ModId}}_CoralOrder_Objective_1_Text]",
 							"RequiredCount": "12",
 							"Data": {
 								"DropBox": "RobinWood",
@@ -49,7 +49,7 @@
 						{
 							"Type": "Mail",
 							"Data": {
-								"MailReceived": "ItsBenter.ShellCollection_CoralOrderCompleted",
+								"MailReceived": "{{ModId}}_CoralOrderCompleted",
 								"NoLetter": "false"
 							}
 						}
@@ -62,12 +62,12 @@
 			"Action": "EditData",
 			"Target": "Strings/SpecialOrderStrings",
 			"Entries": {
-				"ShellCollection.CoralOrder_Name": "{{i18n:CoralOrder_Name}}", //Project Coral
-				"ShellCollection.CoralOrder_Text": "{{i18n:CoralOrder_Text_{{CoralOrderStatus}}}}", 
+				"{{ModId}}_CoralOrder_Name": "{{i18n:CoralOrder_Name}}", //Project Coral
+				"{{ModId}}_CoralOrder_Text": "{{i18n:CoralOrder_Text_{{CoralOrderStatus}}}}", 
 				//Robin and I are working on something together. We need someone to gather 12 Coral and drop them in Robin's stockpile.
 				//An important research is on halt from lack of material. I need someone to gather 12 Coral and drop them in Robin's stockpile.
-				"ShellCollection.CoralOrder_Objective_0_Text": "{{i18n:CoralOrder_Objective_0_Text}}", //Gather 12 Coral.
-				"ShellCollection.CoralOrder_Objective_1_Text": "{{i18n:CoralOrder_Objective_1_Text}}" //Add the Coral to the stockpile in Robin's house
+				"{{ModId}}_CoralOrder_Objective_0_Text": "{{i18n:CoralOrder_Objective_0_Text}}", //Gather 12 Coral.
+				"{{ModId}}_CoralOrder_Objective_1_Text": "{{i18n:CoralOrder_Objective_1_Text}}" //Add the Coral to the stockpile in Robin's house
 			}
 		}
 	]

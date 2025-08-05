@@ -4,7 +4,7 @@
         {
             "LogName": "Load fences images",
             "Action": "Load",
-            "Target": "Mods/ItsBenter.ShellCollection/TileSheets/CoralFence",
+            "Target": "Mods/{{ModId}}/TileSheets/CoralFence",
             "FromFile": "TileSheets/{{TargetWithoutPath}}.png"
         },
         {
@@ -12,11 +12,11 @@
             "Action": "EditData",
             "Target": "Data/Fences",
             "Entries": {
-                "ItsBenter.ShellCollection_CoralFence": {
+                "{{ModId}}_CoralFence": {
                     "Health": 280,
                     "RepairHealthAdjustmentMinimum": -20.0,
                     "RepairHealthAdjustmentMaximum": 20.0,
-                    "Texture": "Mods/ItsBenter.ShellCollection/TileSheets/CoralFence",
+                    "Texture": "Mods/{{ModId}}/TileSheets/CoralFence",
                     "PlacementSound": "axe",
                     "RemovalSound": "axchop",
                     "RemovalToolIds": [],

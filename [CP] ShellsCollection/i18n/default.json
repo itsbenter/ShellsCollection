@@ -1,5 +1,8 @@
 {
 	"$schema": "https://smapi.io/schemas/i18n.json",
+	
+	"config.IslesRarecrowAlwaysAvailable.name": "Isles Rarecrow in-stock from start",
+	"config.IslesRarecrowAlwaysAvailable.description": "Isles Rarecrow would be available in shops before completing Nautical Rarecrow collection.",
 
 	"config.section.PearlProduction.name": "Pearl Production",
 	"config.DottedAbaloneProducePearl.name": "Dotted Abalone Produce Pearl",
@@ -10,31 +13,39 @@
 	"config.WingedScallopProducePearl.description": "Allow Winged Scallop to produce pearl.",
 	"config.WingedScallopPearlChance.name": "Winged Scallop Pearl Chance",
 	"config.WingedScallopPearlChance.description": "Chance to produce pearl, set value between 0-1. This would not have effect if Winged Scallop isn't allowed to produce pearl.",
-
-	"config.section.BeachForageSpawn.name": "Beach Forage Spawn",
-	"config.EnableEastScarp.name": "East Scarp",
-	"config.EnableCapeStardew.name": "Cape Stardew",
-	"config.EnableStardewValleyExpandedFableReef.name": "Fable Reef (SVE)",
-	"config.EnableNorthernGulf.name": "Northern Gulf",
-
+	
 	//Big Craftables
 	"NauticalScarecrow_Name": "Nautical Scarecrow",
 	"NauticalScarecrow_Description": "Castaway cousin of the scarecrow. Prevents crows from attacking your crops.",
 	"NauticalRarecrow_Name": "Nautical Rarecrow",
-	"NauticalRarecrow1_Description": "Collect them all! (1 of 8)",
-	"NauticalRarecrow2_Description": "Collect them all! (2 of 8)",
-	"NauticalRarecrow3_Description": "Collect them all! (3 of 8)",
-	"NauticalRarecrow4_Description": "Collect them all! (4 of 8)",
-	"NauticalRarecrow5_Description": "Collect them all! (5 of 8)",
-	"NauticalRarecrow6_Description": "Collect them all! (6 of 8)",
-	"NauticalRarecrow7_Description": "Collect them all! (7 of 8)",
-	"NauticalRarecrow8_Description": "Collect them all! (8 of 8)",
+	"IslesRarecrow_Name": "Isles Rarecrow",
+	"Rarecrow1_Description": "Collect them all! (1 of 8)",
+	"Rarecrow2_Description": "Collect them all! (2 of 8)",
+	"Rarecrow3_Description": "Collect them all! (3 of 8)",
+	"Rarecrow4_Description": "Collect them all! (4 of 8)",
+	"Rarecrow5_Description": "Collect them all! (5 of 8)",
+	"Rarecrow6_Description": "Collect them all! (6 of 8)",
+	"Rarecrow7_Description": "Collect them all! (7 of 8)",
+	"Rarecrow8_Description": "Collect them all! (8 of 8)",
 
 	//Mail
 	"BraisedScallopRecipe_LetterName": "George's Favorite",
 	"BraisedScallopRecipe_LetterText": "Hello there, dear, I hope you are doing well over the farm.^I'm sending you one of my recipes. This dish might not be my favorite, but George is really digging this one.^^ - Evelyn",
 	"FishShopStockExpanded_LetterName": "Some More Stock",
 	"FishShopStockExpanded_LetterText": "Ahoy @,^You've seen me diggin through some ol' stuffs. And surely, I think you'd like to come and check some new stuffs I've got. ^   -Willy",
+	"IslesRarecrowLaunched_LetterName": "Isles Rarecrow Launch",
+	"IslesRarecrowLaunched_LetterText": "Dear @,^^Only a select few manage to acquire the complete Nautical Rarecrow collection!^^Knowing the deep dedication from individual such as you, we are thrilled to announce launching of Isles Rarecrow collection. May you find joy in collecting them all!^   -The Z.C. Rarecrow Society",
+	
+	//Furniture
+	"ShellTree": "Shell Tree",
+	"UrchinVase": "Urchin Vase",
+	"CoralSculpture": "Coral Sculpture",
+	"HangingClam": "Hanging Clam",
+	"SunsetDrape": "Sunset Drape",
+	"NightDrape": "Night Drape",
+	"MermaidStatue": "Mermaid Statue",
+	"GoddessStatue": "Goddess Statue",
+	"StoicFace": "Stoic Face",
 
 	//Objects
 	//Shells
@@ -106,8 +117,8 @@
 	"CoralOrderCompleted.Robin.10": "Thanks for always being our ever helpful neighbor. $1",
 
 	//Conversation Topics
-	"CT_GiftFromWilly.Willy": "Ol' stuffs surely bring back memories...",
-	"CT_CoralOrderCompleted.Maru": "Dad and Mom been spending more time in the lab. They usually do their own thing, so it's nice seeing them working together.#$b#Dad told me you've helped. Thanks @. $h",
+	"GiftFromWilly.Willy": "Ol' stuffs surely bring back memories...",
+	"CoralOrderCompleted.Maru": "Dad and Mom been spending more time in the lab. They usually do their own thing, so it's nice seeing them working together.#$b#Dad told me you've helped. Thanks @. $h",
 	
 	//Special Order
 	"CoralOrder_Name": "Project Coral",

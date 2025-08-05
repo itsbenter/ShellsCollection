@@ -1,21 +1,21 @@
 {
-	"Name": "[CP] Shell Collection",
+	"Name": "Shells Collection",
 	"Author": "ItsBenter",
 	"Version": "2.0.0",
-	"Description": "Shells Collection's items, rarecrow, special order, events, and many other.",
+	"Description": "Shells Collection's items, rarecrow, special order, events, and many other tid bits.",
 	"UniqueID": "ItsBenter.ShellCollection.CP",
-	"MinimumApiVersion": "4.0.0",
+	"MinimumApiVersion": "4.3.0",
 	"UpdateKeys": [
 		"Nexus:6690"
 	],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
-		"MinimumVersion": "2.0.0"
+		"MinimumVersion": "2.7.0"
 	},
 	"Dependencies": [
 		{
 			"UniqueID": "spacechase0.SpaceCore",
-			"IsRequired": false
+			"IsRequired": true
 		}
 	]
 }

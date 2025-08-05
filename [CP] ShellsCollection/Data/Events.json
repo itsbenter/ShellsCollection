@@ -1,6 +1,5 @@
 {
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
-	"Format": "1.29.0",
 	"Changes": [
 		{
 			"LogName": "Add event in Willy Fish Shop",
@@ -14,24 +13,24 @@
 				//Message 1: "Learned how to craft 'Shell Necklace'",
 				//Willy 4: "You can make some fine neck wear from the shells scatterin around the beach.",
 				//Willy 5: "And maybe give em to someone you fancy. $3",
-				"ItsBenter.ShellCollection_GiftFromWilly/Time 600 1700/Friendship Willy 6": "
+				"{{ModId}}_GiftFromWilly/Time 600 1700/Friendship Willy 6": "
 				continue/5 7/farmer -100 -100 0 Willy 6 4 1/
-				addCraftingRecipe ItsBenter.ShellCollection_GiftFromWillyRecipe/mail ItsBenter.ShellCollection_FishShopStockExpanded/addConversationTopic ItsBenter.ShellCollection.CT_GiftFromWilly 3/skippable/
-				showFrame Willy 26/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 1000/
-				playSound doorClose/warp farmer 5 9/pause 250/faceDirection Willy 2/pause 500/move farmer 0 -1 0 true/
+				addCraftingRecipe {{ModId}}_GiftFromWillyRecipe/mail {{ModId}}_FishShopStockExpanded/skippable/
+				showFrame Willy 26/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 250/emote Willy 32/pause 1000/
+				playSound doorClose/warp farmer 5 9/pause 350/faceDirection Willy 2/pause 500/move farmer 0 -1 0 true/
 				faceDirection Willy 2/
-				speak Willy "{{i18n:GiftFromWilly.Willy.1}}"/
+				speak Willy \"{{i18n:GiftFromWilly.Willy.1}}\"/
 				pause 300/emote Willy 40/pause 300/
-				speak Willy "{{i18n:GiftFromWilly.Willy.2}}"/
+				speak Willy \"{{i18n:GiftFromWilly.Willy.2}}\"/
 				emote Willy 40/pause 500/faceDirection Willy 1/showFrame Willy 26/pause 500/playSound Ship/pause 800/playSound Ship/pause 1000/
 				move Willy -4 0 2 false/move Willy 0 4 1 true/faceDirection farmer 3/emote farmer 8/move Willy 2 0 1/
-				speak Willy "{{i18n:GiftFromWilly.Willy.3}}"/
+				speak Willy \"{{i18n:GiftFromWilly.Willy.3}}\"/
 				pause 800/itemAboveHead/playSound getNewSpecialItem/pause 3300/
-				message "{{i18n:GiftFromWilly.Message.1}}"/
+				message \"{{i18n:GiftFromWilly.Message.1}}\"/
 				pause 800/faceDirection farmer 3/
-				speak Willy "{{i18n:GiftFromWilly.Willy.4}}"/
-				pause 300/faceDirection Willy 3/faceDirection Willy 4/animate Willy true true 250 28 29 30 31/pause 500/
-				speak Willy "{{i18n:GiftFromWilly.Willy.5}}"/
+				speak Willy \"{{i18n:GiftFromWilly.Willy.4}}\"/
+				pause 300/faceDirection Willy 3/animate Willy true true 250 28 29 30 31/pause 500/
+				speak Willy \"{{i18n:GiftFromWilly.Willy.5}}\"/
 				faceDirection farmer 3/emote farmer 32/pause 500/end"
 			}
 		},
@@ -58,40 +57,40 @@
 				//Demetrius 4: I'm sorry, I didn't mean to imply anything bad. $s#$b# I am actually confident you would use it responsibly.
 				//Demetrius 5: Well, we won't be able do this without you. You have my gratitude @! $1
 				//Robin 10: Thanks for always being our ever helpful neighbor. $1
-				"ItsBenter.ShellCollection_CoralOrderCompleted/Time 600 1700/LocalMail ItsBenter.ShellCollection_CoralOrderCompleted": "
+				"{{ModId}}_CoralOrderCompleted/Time 600 1700/LocalMail {{ModId}}_CoralOrderCompleted": "
 				breezy/20 19/farmer 9 20 1 Demetrius 19 18 1 Robin 22 18 3/
-				addCraftingRecipe Coral Fence/addConversationTopic ItsBenter.ShellCollection.CT_CoralOrderCompleted 3/skippable/addObject 20 18 298/addObject 21 18 ItsBenter.ShellCollection_CoralFence/
+				addCraftingRecipe Coral Fence/addConversationTopic ItsBenter.ShellCollection.CT_CoralOrderCompleted 3/skippable/addObject 20 18 298/addObject 21 18 {{ModId}}_CoralFence/
 				animate Demetrius true true 250 27 27 27 30 30 30 31 30 31 30 31 27 27/showFrame Robin 27/pause 500/
-				textAboveHead Robin "{{i18n:CoralOrderCompleted.Robin.1}}"/
-				pause 800/speak Robin "{{i18n:CoralOrderCompleted.Robin.2}}"/
+				textAboveHead Robin \"{{i18n:CoralOrderCompleted.Robin.1}}\"/
+				pause 800/speak Robin \"{{i18n:CoralOrderCompleted.Robin.2}}\"/
 				stopAnimation Demetrius 27/
-				speak Demetrius "{{i18n:CoralOrderCompleted.Demetrius.1}}"/
+				speak Demetrius \"{{i18n:CoralOrderCompleted.Demetrius.1}}\"/
 				emote Robin 32/pause 250/move farmer 3 0 1/showFrame Demetrius 12/move farmer 4 0 1/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.3}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.3}}\"/
 				emote farmer 8/move farmer 2 0 0/showFrame Demetrius 0/move farmer 2 0 0/
-				speak Demetrius "{{i18n:CoralOrderCompleted.Demetrius.2}}"/
+				speak Demetrius \"{{i18n:CoralOrderCompleted.Demetrius.2}}\"/
 				emote Robin 12/pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.4}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.4}}\"/
 				emote farmer 40/pause 250/showFrame Robin 12/animate Robin false false 100 24 24 24 25 26/showFrame Robin 27/pause 150/playSound axe/pause 500/emote Demetrius 28/pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.5}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.5}}\"/
 				emote farmer 56/move Robin 0 1 2/move Robin -2 0 2/pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.6}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.6}}\"/
 				pause 1000/itemAboveHead/playSound getNewSpecialItem/pause 3300/
-				message "{{i18n:CoralOrderCompleted.Message.1}}"/
+				message \"{{i18n:CoralOrderCompleted.Message.1}}\"/
 				pause 800/faceDirection farmer 0/showFrame Robin 32/pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.7}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.7}}\"/
 				pause 250/
-				speak Demetrius "{{i18n:CoralOrderCompleted.Demetrius.3}}"/
+				speak Demetrius \"{{i18n:CoralOrderCompleted.Demetrius.3}}\"/
 				showFrame Robin 34/emote Robin 40/pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.8}}"/
-				question null "{{i18n:CoralOrderCompleted.Question.1}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.8}}\"/
+				question null \"{{i18n:CoralOrderCompleted.Question.1}}\"/
 				showFrame Robin 0/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.9}}"/
-				speak Demetrius "{{i18n:CoralOrderCompleted.Demetrius.4}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.9}}\"/
+				speak Demetrius \"{{i18n:CoralOrderCompleted.Demetrius.4}}\"/
 				pause 800/
-				speak Demetrius "{{i18n:CoralOrderCompleted.Demetrius.5}}"/
+				speak Demetrius \"{{i18n:CoralOrderCompleted.Demetrius.5}}\"/
 				pause 250/
-				speak Robin "{{i18n:CoralOrderCompleted.Robin.10}}"/
+				speak Robin \"{{i18n:CoralOrderCompleted.Robin.10}}\"/
 				emote farmer 56/faceDirection farmer 2/showFrame farmer 32/pause 800/end"
 			}
 		}

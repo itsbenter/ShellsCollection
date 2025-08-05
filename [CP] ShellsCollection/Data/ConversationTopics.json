@@ -6,7 +6,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
-				"ItsBenter.ShellCollection.CT_GiftFromWilly": "{{i18n:CT_GiftFromWilly.Willy}}"
+				"eventSeen_{{ModId}}_GiftFromWilly": "{{i18n:GiftFromWilly.Willy}}"
 			}
 		},
 		{
@@ -14,7 +14,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"ItsBenter.ShellCollection.CT_CoralOrderCompleted": "{{i18n:CT_CoralOrderCompleted.Maru}}"
+				"eventSeen_{{ModId}}_CoralOrderCompleted": "{{i18n:CoralOrderCompleted.Maru}}"
 			}
 		}
 	]
