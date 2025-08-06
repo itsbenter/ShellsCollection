@@ -9,7 +9,7 @@
                 "{{ModId}}_CrispyAbaloneRecipe": "247 1 {{ModId}}_DottedAbalone 1//{{ModId}}_CrispyAbalone/null/", //oil 1, dotted abalone 1
                 "{{ModId}}_BraisedScallopRecipe": "88 1 248 1 {{ModId}}_WingedScallop 1//{{ModId}}_BraisedScallop/null/", //garlic 1. coconut 1, winged scallop 1
                 "{{ModId}}_PurplePlateRecipe": "299 1 266 1 {{ModId}}_WingedScallop 1//{{ModId}}_PurplePlate/null/", //amaranth 1, red cabbage 1, winged scallop 1
-                "{{ModId}}_MolluskRecipe": "719 1 {{ModId}}_WingedScallop 1 {{ModId}}_DottedAbalone 1 153 1//{{ModId}}_PurplePlate/null/", //mussel 1, dotted abalone 1, common scallop 1, green algae 1
+                "{{ModId}}_MolluskSoupRecipe": "719 1 {{ModId}}_WingedScallop 1 {{ModId}}_DottedAbalone 1 153 1//{{ModId}}_PurplePlate/null/", //mussel 1, dotted abalone 1, winged scallop 1, green algae 1
             }
         },
         {

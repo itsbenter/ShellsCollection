@@ -10,8 +10,6 @@
             },
             "Entries": {
                 "{{ModId}}_BraisedScallopRecipe": {
-                    //Forage of Ferngill has Ferngill Scallop
-                    //More New Fish
                     "ProductQualifiedId": "{{ModId}}_BraisedScallop",
                     "ProductAmount": 1,
                     "Ingredients": [
@@ -40,20 +38,18 @@
                         }
                     ]
                 },
-                "{{ModId}}_BraisedScallopRecipe": {
-                    //Forage of Ferngill
-                    //More New Fish
-                    "ProductQualifiedId": "{{ModId}}_BraisedScallop",
+                "{{ModId}}_PurplePlateRecipe": {
+                    "ProductQualifiedId": "{{ModId}}_PurplePlate",
                     "ProductAmount": 1,
                     "Ingredients": [
                         {
                             "Type": "Item",
-                            "Value": "(O)88",
+                            "Value": "(O)299",
                             "Amount": 1
                         },
                         {
                             "Type": "Item",
-                            "Value": "(O)248",
+                            "Value": "(O)266",
                             "Amount": 1
                         },
                         {
@@ -64,6 +60,48 @@
                             "OverrideTexturePath": "Mods/{{ModId}}/TileSheets/Objects",
                             "OverrideTextureRect": {
                                 "X": 32,
+                                "Y": 48,
+                                "Width": 16,
+                                "Height": 16
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_MolluskSoupRecipe": {
+                    "ProductQualifiedId": "{{ModId}}_MolluskSoup",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "Item",
+                            "Value": "(O)719",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)153",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "scallop_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:AnyScallop}}",
+                            "OverrideTexturePath": "Mods/{{ModId}}/TileSheets/Objects",
+                            "OverrideTextureRect": {
+                                "X": 32,
+                                "Y": 48,
+                                "Width": 16,
+                                "Height": 16
+                            }
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "abalone_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:AnyAbalone}}",
+                            "OverrideTexturePath": "Mods/{{ModId}}/TileSheets/Objects",
+                            "OverrideTextureRect": {
+                                "X": 0,
                                 "Y": 48,
                                 "Width": 16,
                                 "Height": 16
@@ -346,7 +384,7 @@
                                     "Value": "{{ModId}}_BeachSpawnable_{{Season}}"
                                 }
                             ],
-                            "Minimum": 0,
+                            "Minimum": -1,
                             "Maximum": 2
                         }
                     ]
@@ -389,7 +427,7 @@
                                 }
                             ],
                             "Minimum": 1,
-                            "Maximum": 1
+                            "Maximum": 2
                         }
                     ]
                 }

@@ -1,7 +1,7 @@
 {
 	"$schema": "https://smapi.io/schemas/i18n.json",
 	
-	"config.IslesRarecrowAlwaysAvailable.name": "Isles Rarecrow in-stock from start",
+	"config.IslesRarecrowAlwaysAvailable.name": "Isles Rarecrow always available",
 	"config.IslesRarecrowAlwaysAvailable.description": "Isles Rarecrow would be available in shops before completing Nautical Rarecrow collection.",
 
 	"config.section.PearlProduction.name": "Pearl Production",
@@ -32,7 +32,7 @@
 	"BraisedScallopRecipe_LetterName": "George's Favorite",
 	"BraisedScallopRecipe_LetterText": "Hello there, dear, I hope you are doing well over the farm.^I'm sending you one of my recipes. This dish might not be my favorite, but George is really digging this one.^^ - Evelyn",
 	"FishShopStockExpanded_LetterName": "Some More Stock",
-	"FishShopStockExpanded_LetterText": "Ahoy @,^You've seen me diggin through some ol' stuffs. And surely, I think you'd like to come and check some new stuffs I've got. ^   -Willy",
+	"FishShopStockExpanded_LetterText": "Ahoy @,^You've seen me diggin through some ol' stuffs. And surely, I think you'd like to come and check some new sttock I've got. ^   -Willy",
 	"IslesRarecrowLaunched_LetterName": "Isles Rarecrow Launch",
 	"IslesRarecrowLaunched_LetterText": "Dear @,^^Only a select few manage to acquire the complete Nautical Rarecrow collection!^^Knowing the deep dedication from individual such as you, we are thrilled to announce launching of Isles Rarecrow collection. May you find joy in collecting them all!^   -The Z.C. Rarecrow Society",
 	
@@ -90,6 +90,10 @@
 	"ShellNecklace_Description": "Neck accesories with sea shells on it.",
 	"CoralFence_Name": "Coral Fence",
 	"CoralFence_Description": "Alternative fence material. As durable as hardwood fence.",
+
+	//Recipe
+	"AnyScallop": "Any scallop",
+	"AnyAbalone": "Any abalone",
 
 	//Events
 	"GiftFromWilly.Willy.1": "Oh, look who's comin.",

@@ -24,33 +24,20 @@
                     "HostOnly": true,
                     "MarkActionApplied": false,
                     "Actions": [
+                        //Pelican
 						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup Beach 9,11,34,6/20,16,27,5/37,21,10,4/51,13,5,10", //Beach Main
                         "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup Beach 66,8,24,17", //Beach East
+                        ////Rain
                         "if {{Weather: valley|contains=rain, storm}} ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup_Rain Beach 9,11,34,6/20,16,27,5/37,21,10,4/51,13,5,10", //Both areas rain
+                        ////Summer bonus
+                        "if SEASON_DAY Summer 12 Summer 13 Summer 14 ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup Beach 9,11,34,6/20,16,27,5/37,21,10,4/51,13,5,10", //Beach Main
+                        "if SEASON_DAY Summer 12 Summer 13 Summer 14 ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup Beach 66,8,24,17", //Beach East
+                        ////Coral Order
+                        "if PLAYER_SPECIAL_ORDER_ACTIVE Any {{ModId}}_CoralOrder ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_CoralSpawningGroup Beach 66,8,24,17", //Beach Tide Pools
+                        //Ginger Island
                         "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GingerIslandSpawningGroup IslandSouthEast 8,25,19,4/23,18,6,7", //Ginger Island Star
                         "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GingerIslandSpawningGroup IslandSouth 9,28,30,4", //Ginger Island Resort
                         "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GingerIslandSpawningGroup IslandWest 56,79,29,9/85,79,19,8/19,68,6,13/32,83,19,7/24,83,8,4" //Ginger Island Farm
-                    ]
-                },
-                "{{ModId}}_ShellsSpawnTriggerActions_SummerBonus": { 
-                    "Id": "{{ModId}}_ShellsSpawnTriggerActions_SummerBonus",
-                    "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY summer 12 summer 13 summer 14",
-                    "HostOnly": true,
-                    "MarkActionApplied": false,
-                    "Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup Beach 9,11,34,6/20,16,27,5/37,21,10,4/51,13,5,10", //Beach Main
-                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup Beach 66,8,24,17" //Beach East
-                    ]
-                },
-                "{{ModId}}_CoralSpawnTriggerActions": { 
-                    "Id": "{{ModId}}_CoralSpawnTriggerActions",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_SPECIAL_ORDER_ACTIVE Any {{ModId}}_CoralOrder",
-                    "HostOnly": true,
-                    "MarkActionApplied": false,
-                    "Actions": [
-                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_CoralSpawningGroup Beach 66,8,24,17" //Beach Tide Pools
                     ]
                 },
                 "{{ModId}}_ShellsSpawn_EastScarp_TriggerActions": { 

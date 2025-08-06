@@ -177,7 +177,7 @@
 				},
 				{
 					"ID": "item_dotted_abalone",
-					"AfterID": "item_scallop"
+					"ToPosition": "Top"
 				}
 			]
 		},
