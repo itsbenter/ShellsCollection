@@ -7,21 +7,21 @@
 			"Target": "Data/SpecialOrders",
 			"Entries": {
 				"{{ModId}}_CoralOrder": {
-					"Name": "[{{ModId}}_CoralOrder_Name]",
+					"Name": "[CoralOrder_Name]",
 					"Requester": "Demetrius",
 					"Duration": "Month",
 					"Repeatable": "True",
 					"RequiredTags": "",
 					"OrderType": "",
 					"SpecialRule": "",
-					"Text": "[{{ModId}}_CoralOrder.Text]",
+					"Text": "[CoralOrder.Text]",
 					"ItemToRemoveOnEnd": null,
 					"MailToRemoveOnEnd": null,
 					"RandomizedElements": null,
 					"Objectives": [
 						{
 							"Type": "Collect",
-							"Text": "[{{ModId}}_CoralOrder_Objective_0_Text]",
+							"Text": "[CoralOrder_Objective_0_Text]",
 							"RequiredCount": "12",
 							"Data": {
 								"AcceptedContextTags": "item_coral"
@@ -29,8 +29,8 @@
 						},
 						{
 							"Type": "Donate",
-							"Text": "[{{ModId}}_CoralOrder_Objective_1_Text]",
-							"RequiredCount": "12",
+							"Text": "[CoralOrder_Objective_1_Text]",
+							"RequiredCount": "15",
 							"Data": {
 								"DropBox": "RobinWood",
 								"DropBoxGameLocation": "ScienceHouse",
@@ -45,13 +45,6 @@
 							"Data": {
 								"Amount": "2500"
 							}
-						},
-						{
-							"Type": "Mail",
-							"Data": {
-								"MailReceived": "{{ModId}}_CoralOrderCompleted",
-								"NoLetter": "false"
-							}
 						}
 					]
 				}
@@ -62,12 +55,12 @@
 			"Action": "EditData",
 			"Target": "Strings/SpecialOrderStrings",
 			"Entries": {
-				"{{ModId}}_CoralOrder_Name": "{{i18n:CoralOrder_Name}}", //Project Coral
-				"{{ModId}}_CoralOrder_Text": "{{i18n:CoralOrder_Text_{{CoralOrderStatus}}}}", 
-				//Robin and I are working on something together. We need someone to gather 12 Coral and drop them in Robin's stockpile.
-				//An important research is on halt from lack of material. I need someone to gather 12 Coral and drop them in Robin's stockpile.
-				"{{ModId}}_CoralOrder_Objective_0_Text": "{{i18n:CoralOrder_Objective_0_Text}}", //Gather 12 Coral.
-				"{{ModId}}_CoralOrder_Objective_1_Text": "{{i18n:CoralOrder_Objective_1_Text}}" //Add the Coral to the stockpile in Robin's house
+				"CoralOrder_Name": "{{i18n:CoralOrder_Name}}", //Project Coral
+				"CoralOrder_Text": "{{i18n:CoralOrder_Text_{{CoralOrderStatus}}}}", 
+				//Robin and I are working on something together. We need someone to gather 15 Coral and drop them in Robin's stockpile.
+				//An important research is on halt from lack of material. I need someone to gather 15 Coral and drop them in Robin's stockpile.
+				"CoralOrder_Objective_0_Text": "{{i18n:CoralOrder_Objective_0_Text}}", //Gather 15 Coral.
+				"CoralOrder_Objective_1_Text": "{{i18n:CoralOrder_Objective_1_Text}}" //Add the Coral to the stockpile in Robin's house
 			}
 		}
 	]

@@ -86,8 +86,8 @@
 	//Craftable
 	"SandBucksParcel_Name": "Sand Bucks Parcel",
 	"SandBucksParcel_Description": "A decorated pocket of sand bucks. Small trinket that said to bring excellent fortune.",
-	"ShellNecklace_Name": "Shell Necklace",
-	"ShellNecklace_Description": "Neck accesories with sea shells on it.",
+	"ShellsNecklace_Name": "Shells Necklace",
+	"ShellsNecklace_Description": "Neck accesories with sea shells on it.",
 	"CoralFence_Name": "Coral Fence",
 	"CoralFence_Description": "Alternative fence material. As durable as hardwood fence.",
 
@@ -126,8 +126,8 @@
 	
 	//Special Order
 	"CoralOrder_Name": "Project Coral",
-	"CoralOrder_Text_Uncompleted": "Robin and I are working on something together. We need someone to gather 12 Coral and drop them in Robin's stockpile.",
-	"CoralOrder_Text_Completed": "An important research is on halt from lack of material. I need someone to gather 12 Coral and drop them in Robin's stockpile.",
-	"CoralOrder_Objective_0_Text": "Gather 12 Coral.",
+	"CoralOrder_Text_Uncompleted": "Robin and I are working on something together. We need someone to gather 15 Coral and drop them in Robin's stockpile.",
+	"CoralOrder_Text_Completed": "An important research is on halt from lack of material. I need someone to gather 15 Coral and drop them in Robin's stockpile.",
+	"CoralOrder_Objective_0_Text": "Gather 15 Coral.",
 	"CoralOrder_Objective_1_Text": "Add the Coral to the stockpile in Robin's house"
 }

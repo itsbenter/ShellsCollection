@@ -32,7 +32,7 @@
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_IslesRarecrow7"
                     ]
-                },
+                }
             }
         },
         {
@@ -223,11 +223,17 @@
                     "Id": "{{ModId}}_IslesRarecrow1",
                     "ItemId": "(BC){{ModId}}_IslesRarecrow1",
                     "Condition": "{{IslesRarecrowInStock}} 'RANDOM 0.2'",
-                    "TradeItemId": "(O){{ModId}}_DottedAbalone", //Banana
+                    "TradeItemId": "(O){{ModId}}_DottedAbalone",
                     "TradeItemAmount": 5,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_IslesRarecrow1"
                     ]
+                },
+                "{{ModId}}_HangingClam": {
+                    "Id": "{{ModId}}_HangingClam",
+                    "ItemId": "(F){{ModId}}_HangingClam",
+                    "TradeItemId": "(O){{ModId}}_RedTrumpet",
+                    "TradeItemAmount": 10
                 }
             }
         },
@@ -287,7 +293,7 @@
                 "{{ModId}}_NauticalRarecrow3": {
                     "Id": "{{ModId}}_NauticalRarecrow3",
                     "ItemId": "(BC){{ModId}}_NauticalRarecrow3",
-                    "Condition": "RANDOM 0.25 SEASON fall winter",
+                    "Condition": "RANDOM 0.5 SEASON fall winter",
                     "Price": 2000,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_NauticalRarecrow3"
@@ -296,7 +302,7 @@
                 "{{ModId}}_NauticalRarecrow5": {
                     "Id": "{{ModId}}_NauticalRarecrow5",
                     "ItemId": "(BC){{ModId}}_NauticalRarecrow5",
-                    "Condition": "RANDOM 0.25 SEASON spring summer",
+                    "Condition": "RANDOM 0.5 SEASON spring summer",
                     "Price": 3500,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_NauticalRarecrow5"
@@ -377,6 +383,7 @@
                 "{{ModId}}_RareSeed": {
                     "Id": "{{ModId}}_SweetGemBerry",
                     "ItemId": "347",
+                    "Condition": "!SEASON Fall",
                     "TradeItemId": "(O){{ModId}}_KittenPaw",
                     "TradeItemAmount": 3
                 }

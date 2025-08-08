@@ -1,14 +1,11 @@
+# Gift Taste
+
 This page documents the changes and interaction made by [Shell Collection](https://www.nexusmods.com/stardewvalley/mods/6690) to [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753).
 
-## Contents
-
-* [Gift Taste](#gift_taste)
-* [Quests](#quests)
-* [Notes](#notes)
-
-# Gift Tastes
+## Universal Gift Taste
 
 Neutral
+
 - Lucky Marine
 - Blue Conch
 - Coral Shell
@@ -23,7 +20,12 @@ Neutral
 - Sand Bucks Parcel
 
 Hated
+
 - Limpet Shell
+
+## NPCs Gift Tastes
+
+### Base Game NPCs
 
 | NPC       | Love                           | Like                                                        | Neutral | Dislike                                                                     | Hate                                                                             |
 | --------- | ------------------------------ | ----------------------------------------------------------- | ------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -53,6 +55,7 @@ Hated
 | Willy     | Lucky Marine                   | Gem Sea Whelk                                               | -       | -                                                                           | -                                                                                |
 | Wizard    | -                              | Lucky Marine                                                | -       | -                                                                           | -                                                                                |
 
+### Stardew Valley Expanded NPCs
 
 | NPC    | Love                            | Like           | Neutral | Dislike | Hate |
 | ------ | ------------------------------- | -------------- | ------- | ------- | ---- |

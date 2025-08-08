@@ -396,10 +396,10 @@
                         "color_brown",
                     ]
                 },
-                "{{ModId}}_ShellNecklace": {
-                    "Name": "Shell Necklace",
-                    "Displayname": "{{i18n:ShellNecklace_Name}}",
-                    "Description": "{{i18n:ShellNecklace_Description}}",
+                "{{ModId}}_ShellsNecklace": {
+                    "Name": "Shells Necklace",
+                    "Displayname": "{{i18n:ShellsNecklace_Name}}",
+                    "Description": "{{i18n:ShellsNecklace_Description}}",
                     "Type": "Crafting",
                     "Category": -8,
                     "Price": 650,
