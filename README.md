@@ -166,5 +166,5 @@ Patches made for other mods:
 It is safe! The additional content added by this mod will work just fine.
 2. How do I get this item? <br>
 The items are designed to be encountered naturally as the game carry on. If you're really curious you can read the item documentation.
-3. Is this mod is compatible with that mod? <br>
+3. Is this mod compatible with that mod? <br>
 I don't really know. You are free to try, and if you'd like you can report the finding. It will surely be helpful to others.
