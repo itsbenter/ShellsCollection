@@ -1,6 +1,6 @@
-# Shells Collectiom
+# Shells Collection
 
-[Shells Collection](https://www.nexusmods.com/stardewvalley/mods/6690) adds various beach-themed items. Sea shells, crab pot fishes, new rarecrow collection, furniture, cookings, and more! All made to seamlessly blend to the game.
+[Shells Collection](https://www.nexusmods.com/stardewvalley/mods/6690) adds various beach-themed items. Sea shells, crab pot fishes, new rarecrow collections, furnitures, cookings, and more! All made to seamlessly blend to the game.
 
 ## Contents
 
