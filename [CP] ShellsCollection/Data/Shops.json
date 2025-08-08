@@ -246,6 +246,13 @@
                 "Items"
             ],
             "Entries": {
+                "{{ModId}}_NauticalScarecrow": {
+                    "Id": "{{ModId}}_NauticalScarecrow",
+                    "ItemId": "(BC){{ModId}}_NauticalScarecrow",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
+                    "IsRecipe": true,
+                    "Price": 500,
+                },
                 "{{ModId}}_NauticalRarecrow8": {
                     "Id": "{{ModId}}_NauticalRarecrow8",
                     "ItemId": "(BC){{ModId}}_NauticalRarecrow8",

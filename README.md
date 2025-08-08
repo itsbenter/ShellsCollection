@@ -19,11 +19,11 @@
 
 ## Items
 
-In version 2.0.0, this mod adds 10 shells, 2 crab pot fishes, 4 cookings, 3 craftables, 17 scarecrows, and 10 furnitures. Some NPCs gift tastes are modified with the items added, for details refer to [Gift Taste](Documentation/GiftTaste.md).
+In version 1.3.0, this mod adds 10 shells, 2 crab pot fishes, 4 cookings, 3 craftables, 17 scarecrows, and 10 furnitures. Some NPCs gift tastes are modified with the items added, for the details refer to [Gift Taste](Documentation/GiftTaste.md).
 
 ### Shells
 
-Shells are beach forages in Pelican Town's Beach, Ginger Island, and or other modded locations. The spawn can be seen in [Beach Forage Spawn](Documentation/BeachForageSpawn.md).
+Shells are beach forages in Pelican Town's Beach, Ginger Island, and other modded locations. The details of spawn rate can be seen in [Beach Forage Spawn](Documentation/BeachForageSpawn.md).
 
 | Image | Shell | Base Price | 
 | ----- | ----- | ---------- | 
@@ -74,7 +74,7 @@ This mod adds Nautical Scarecrow and two lines of Rarecrows.
 
 | Image | Craftable | Ingredients | Recipe Source |
 | ----- | ---------- | ----------- | ------------- |
-| ![Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.png) | Nautical Scarecrow | Wood: 50 <br> Coconut: 1 <br> Fiber: 20 | "Gift From Willy" event |
+| ![Nautical Scarecrow](Documentation/Scarecrows/NauticalScarecrow.png) | Nautical Scarecrow | Wood: 50 <br> Coconut: 1 <br> Fiber: 20 | Purchase at Willy shop for 500g after receiving "Some More Stock" mail from Willy |
 
 ### Rarecrows
 
@@ -133,6 +133,7 @@ This mod adds two events.
 * Location: Willy's Fish Shop
 * Time is between 06.00-17.00
 * Has at least 6 Hearts with Willy
+Will send "Some More Stock" mail the day after
 
 ### Coral Order Completed
 
@@ -162,7 +163,7 @@ Patches made for other mods:
 ## FAQ
 
 1. Is it safe to add [Shells Collection](https://www.nexusmods.com/stardewvalley/mods/6690) mid-save? <br>
-It is! The additional content added by this mod will work just fine.
+It is safe! The additional content added by this mod will work just fine.
 2. How do I get this item? <br>
 The items are designed to be encountered naturally as the game carry on. If you're really curious you can read the item documentation.
 3. Is this mod is compatible with that mod? <br>
