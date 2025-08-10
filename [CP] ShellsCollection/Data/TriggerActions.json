@@ -47,9 +47,9 @@
                     "HostOnly": true,
                     "MarkActionApplied": false,
                     "Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup EastScarp 7,120,4,9/11,120,3,5/14,120,3,3/9,115,21,5/30,114,6,4/36,112,20,3", //Beach Sand
-                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup EastScarp 43,100,3,5/53,99,4,2/57,102,4,2/58,94,4,2/51,110,7,2/41,105,2,6", //Beach Tide Pools
-                        "if {{Weather: valley|contains=rain, storm}} ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup_Rain EastScarp 7,120,4,9/11,120,3,5/14,120,3,3/9,115,21,5/30,114,6,4/36,112,20,3" //Beach Sand
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup EastScarp_Village 7,120,4,9/11,120,3,5/14,120,3,3/9,115,21,5/30,114,6,4/36,112,20,3", //Beach Sand
+                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup EastScarp_Village 43,100,3,5/53,99,4,2/57,102,4,2/58,94,4,2/51,110,7,2/41,105,2,6", //Beach Tide Pools
+                        "if {{Weather: valley|contains=rain, storm}} ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup_Rain EastScarp_Village 7,120,4,9/11,120,3,5/14,120,3,3/9,115,21,5/30,114,6,4/36,112,20,3" //Beach Sand
                     ]
                 },
                 "{{ModId}}_ShellsSpawn_CapeStardew_TriggerActions": { 
@@ -59,19 +59,19 @@
                     "HostOnly": true,
                     "MarkActionApplied": false,
                     "Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup CapeStardew 42,33,2,31", //Beach Sand
-                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup CapeStardew 30,42,9,16", //Beach Tide Pools
-                        "if {{Weather: valley|contains=rain, storm}} ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup_Rain CapeStardew 42,33,2,31" //Beach Sand
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup Custom_CapeStardew 42,33,2,31", //Beach Sand
+                        "spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachTidePoolsSpawningGroup Custom_CapeStardew 30,42,9,16", //Beach Tide Pools
+                        "if {{Weather: valley|contains=rain, storm}} ## spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawningGroup_Rain Custom_CapeStardew 42,33,2,31" //Beach Sand
                     ]
                 },
-                "{{ModId}}_ShellsSpawn_SVE_TriggerActions": { 
+                "{{ModId}}_ShellsSpawn_SVE_TriggerActions": {
                     "Id": "{{ModId}}_ShellsSpawn_SVE_TriggerActions",
                     "Trigger": "DayStarted",
                     "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}",
                     "HostOnly": true,
                     "MarkActionApplied": false,
                     "Actions": [
-						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GingerIslandSpawningGroup FableReef 36,53,17,3/53,50,3,5/56,49,4,4/63,38,3,12/32,15,19,7"
+						"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_GingerIslandSpawningGroup Custom_FableReef 36,53,17,3/53,50,3,5/56,49,4,4/63,38,3,12/32,15,19,7"
                     ]
                 }
             }

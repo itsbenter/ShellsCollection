@@ -22,7 +22,7 @@
 
                 //Object
                 "{{ModId}}_SandBucksParcelRecipe": "{{ModId}}_SandBucks 5 428 1/null/{{ModId}}_SandBucksParcel/false/null/", //sand bucks 5, cloth 1
-                "{{ModId}}_ShellNecklaceRecipe": "372 1 394 1 {{ModId}}_CrystalCowrie 1 {{ModId}}_KittenPaw 1 {{ModId}}_BlueConch 1/null/{{ModId}}_ShellNecklace/false/null/", //clam 1, rainbow shell 1, crystal cowrie 1, kitten paw 1, blue conch 1
+                "{{ModId}}_ShellsNecklaceRecipe": "372 1 394 1 {{ModId}}_CrystalCowrie 1 {{ModId}}_KittenPaw 1 {{ModId}}_BlueConch 1/null/{{ModId}}_ShellNecklace/false/null/", //clam 1, rainbow shell 1, crystal cowrie 1, kitten paw 1, blue conch 1
                 "{{ModId}}_CoralFenceRecipe": "393 1/null/{{ModId}}_CoralFence/false/null/", //coral 1
             }
         }
