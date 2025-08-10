@@ -10,12 +10,12 @@
 				//Willy 1: "Oh, look who's comin.",
 				//Willy 2: "I just fumbled through some ol' stuffs down here.",
 				//Willy 3: "You came at the right time, I'd like you to have this @.",
-				//Message 1: "Learned how to craft 'Shell Necklace'",
+				//Message 1: "Learned how to craft 'Shells Necklace'",
 				//Willy 4: "You can make some fine neck wear from the shells scatterin around the beach.",
 				//Willy 5: "And maybe give em to someone you fancy. $3",
 				"{{ModId}}_GiftFromWilly/Time 600 1700/Friendship Willy 6": "
 				continue/5 7/farmer -100 -100 0 Willy 6 4 1/
-				addCraftingRecipe {{ModId}}_GiftFromWillyRecipe/mail {{ModId}}_FishShopStockExpanded/skippable/
+				addCraftingRecipe {{ModId}}_ShellsNecklace/mail {{ModId}}_FishShopStockExpanded/skippable/
 				showFrame Willy 26/pause 250/emote Willy 40/pause 250/emote Willy 40/pause 250/emote Willy 32/pause 1000/
 				playSound doorClose/warp farmer 5 9/pause 350/faceDirection Willy 2/pause 500/move farmer 0 -1 0 true/
 				faceDirection Willy 2/
@@ -59,7 +59,7 @@
 				//Robin 10: Thanks for always being our ever helpful neighbor. $1
 				"{{ModId}}_CoralOrderCompleted/Time 600 1700/GameStateQuery PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_CoralOrder": "
 				breezy/20 19/farmer 9 20 1 Demetrius 19 18 1 Robin 22 18 3/
-				addCraftingRecipe Coral Fence/addConversationTopic ItsBenter.ShellCollection.CT_CoralOrderCompleted 3/skippable/addObject 20 18 298/addObject 21 18 {{ModId}}_CoralFence/
+				addCraftingRecipe {{ModId}}_CoralFenceRecipe/addConversationTopic ItsBenter.ShellCollection.CT_CoralOrderCompleted 3/skippable/addObject 20 18 298/addObject 21 18 {{ModId}}_CoralFence/
 				animate Demetrius true true 250 27 27 27 30 30 30 31 30 31 30 31 27 27/showFrame Robin 27/pause 500/
 				textAboveHead Robin \"{{i18n:CoralOrderCompleted.Robin.1}}\"/
 				pause 800/speak Robin \"{{i18n:CoralOrderCompleted.Robin.2}}\"/
