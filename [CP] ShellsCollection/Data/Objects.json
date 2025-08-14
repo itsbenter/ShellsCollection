@@ -416,7 +416,9 @@
                     "Price": 10,
                     "Texture": "Mods/{{ModId}}/TileSheets/Objects",
                     "SpriteIndex": 32,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "color_red"
+                    ]
                 }
             }
         }

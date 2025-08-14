@@ -6,10 +6,10 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_CrispyAbaloneRecipe": "247 1 {{ModId}}_DottedAbalone 1//{{ModId}}_CrispyAbalone/null/", //oil 1, dotted abalone 1
-                "{{ModId}}_BraisedScallopRecipe": "88 1 248 1 {{ModId}}_WingedScallop 1//{{ModId}}_BraisedScallop/null/", //garlic 1. coconut 1, winged scallop 1
-                "{{ModId}}_PurplePlateRecipe": "299 1 266 1 {{ModId}}_WingedScallop 1//{{ModId}}_PurplePlate/null/", //amaranth 1, red cabbage 1, winged scallop 1
-                "{{ModId}}_MolluskSoupRecipe": "719 1 {{ModId}}_WingedScallop 1 {{ModId}}_DottedAbalone 1 153 1//{{ModId}}_PurplePlate/null/", //mussel 1, dotted abalone 1, winged scallop 1, green algae 1
+                "{{ModId}}_CrispyAbalone": "247 1 {{ModId}}_DottedAbalone 1//{{ModId}}_CrispyAbalone/null/{{i18n:CrispyAbalone_Name}}", //oil 1, dotted abalone 1
+                "{{ModId}}_BraisedScallop": "88 1 248 1 {{ModId}}_WingedScallop 1//{{ModId}}_BraisedScallop/null/{{i18n:BraisedScallop_Name}}", //garlic 1. coconut 1, winged scallop 1
+                "{{ModId}}_PurplePlate": "299 1 266 1 {{ModId}}_WingedScallop 1//{{ModId}}_PurplePlate/null/{{i18n:PurplePlate_Name}}", //amaranth 1, red cabbage 1, winged scallop 1
+                "{{ModId}}_MolluskSoup": "719 1 {{ModId}}_WingedScallop 1 {{ModId}}_DottedAbalone 1 153 1//{{ModId}}_MolluskSoup/null/{{i18n:MolluskSoup_Name}}", //mussel 1, dotted abalone 1, winged scallop 1, green algae 1
             }
         },
         {
@@ -18,12 +18,11 @@
             "Target": "Data/CraftingRecipes",
             "Entries": {
                 //Big Craftable
-                "{{ModId}}_NauticalScarecrowRecipe": "388 50 88 1 771 20/null/(BC){{ModId}}_NauticalScarecrow/true/null/", //wood 50, coconut 1, fiber 20
-
+                "{{ModId}}_NauticalScarecrow": "388 50 88 1 771 20//(BC){{ModId}}_NauticalScarecrow/true/null/{{i18n:NauticalScarecrow_Name}}", //wood 50, coconut 1, fiber 20
                 //Object
-                "{{ModId}}_SandBucksParcelRecipe": "{{ModId}}_SandBucks 5 428 1/null/{{ModId}}_SandBucksParcel/false/null/", //sand bucks 5, cloth 1
-                "{{ModId}}_ShellsNecklaceRecipe": "372 1 394 1 {{ModId}}_CrystalCowrie 1 {{ModId}}_KittenPaw 1 {{ModId}}_BlueConch 1/null/{{ModId}}_ShellNecklace/false/null/", //clam 1, rainbow shell 1, crystal cowrie 1, kitten paw 1, blue conch 1
-                "{{ModId}}_CoralFenceRecipe": "393 1/null/{{ModId}}_CoralFence/false/null/", //coral 1
+                "{{ModId}}_SandBucksParcel": "{{ModId}}_SandBucks 5 428 1//{{ModId}}_SandBucksParcel/false/null/{{i18n:SandBucksParcel_Name}}", //sand bucks 5, cloth 1
+                "{{ModId}}_ShellsNecklace": "372 1 394 1 {{ModId}}_CrystalCowrie 1 {{ModId}}_KittenPaw 1 {{ModId}}_BlueConch 1//{{ModId}}_ShellsNecklace/false/null/{{i18n:ShellsNecklace_Name}}", //clam 1, rainbow shell 1, crystal cowrie 1, kitten paw 1, blue conch 1
+                "{{ModId}}_CoralFence": "393 1//{{ModId}}_CoralFence/false/null/{{i18n:CoralFence_Name}}", //coral 1
             }
         }
     ]

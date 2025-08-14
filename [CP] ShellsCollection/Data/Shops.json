@@ -15,14 +15,17 @@
                     "ItemId": "{{ModId}}_CrispyAbalone",
                     "Condition": "RANDOM 0.5",
                     "IsRecipe": true,
-                    "Price": 200
+                    "Price": 200,
+                    "ObjectInternalName": "{{ModId}}_CrispyAbalone",
+
                 },
                 "{{ModId}}_PurplePlateRecipe": {
                     "Id": "{{ModId}}_PurplePlateRecipe",
-                    "ItemId": "{{ModId}}_PurplePlateRecipe",
+                    "ItemId": "{{ModId}}_PurplePlate",
                     "Condition": "RANDOM 0.5",
                     "IsRecipe": true,
-                    "Price": 150
+                    "Price": 150,
+                    "ObjectInternalName": "{{ModId}}_PurplePlate",
                 },
                 "{{ModId}}_IslesRarecrow7": {
                     "Id": "{{ModId}}_IslesRarecrow7",
@@ -67,7 +70,7 @@
                 "{{ModId}}_IslesRarecrow2": {
                     "Id": "{{ModId}}_IslesRarecrow2",
                     "ItemId": "(BC){{ModId}}_IslesRarecrow2",
-                    "Condition": "{{IslesRarecrowInStock}} 'DAY_OF_WEEK Monday Wednesday Friday Sunday'",
+                    "Condition": "{{IslesRarecrowInStock}}, DAY_OF_WEEK Monday Wednesday Friday Sunday",
                     "TradeItemId": "(O){{ModId}}_LuckyMarine",
                     "TradeItemAmount": 5,
                     "ActionsOnPurchase": [
@@ -77,7 +80,7 @@
                 "{{ModId}}_IslesRarecrow8": {
                     "Id": "{{ModId}}_IslesRarecrow8",
                     "ItemId": "(BC){{ModId}}_IslesRarecrow8",
-                    "Condition": "{{IslesRarecrowInStock}} 'DAY_OF_WEEK Tuesday Thursday Saturday'",
+                    "Condition": "{{IslesRarecrowInStock}}, DAY_OF_WEEK Tuesday Thursday Saturday",
                     "TradeItemId": "(O){{ModId}}_SpiderConch",
                     "TradeItemAmount": 40,
                     "ActionsOnPurchase": [
@@ -147,7 +150,7 @@
                 "{{ModId}}_IslesRarecrow5": {
                     "Id": "{{ModId}}_IslesRarecrow5",
                     "ItemId": "(BC){{ModId}}_IslesRarecrow5",
-                    "Condition": "{{IslesRarecrowInStock}} 'PLAYER_HAS_MAIL Any willyBoatFixed'",
+                    "Condition": "{{IslesRarecrowInStock}}, PLAYER_HAS_MAIL Any willyBoatFixed",
                     "Price": 12000,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_IslesRarecrow5"
@@ -222,7 +225,7 @@
                 "{{ModId}}_IslesRarecrow1": {
                     "Id": "{{ModId}}_IslesRarecrow1",
                     "ItemId": "(BC){{ModId}}_IslesRarecrow1",
-                    "Condition": "{{IslesRarecrowInStock}} 'RANDOM 0.2'",
+                    "Condition": "{{IslesRarecrowInStock}}, RANDOM 0.2",
                     "TradeItemId": "(O){{ModId}}_DottedAbalone",
                     "TradeItemAmount": 5,
                     "ActionsOnPurchase": [
@@ -246,12 +249,13 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_NauticalScarecrow": {
-                    "Id": "{{ModId}}_NauticalScarecrow",
+                "{{ModId}}_NauticalScarecrowRecipe": {
+                    "Id": "{{ModId}}_NauticalScarecrowRecipe",
                     "ItemId": "(BC){{ModId}}_NauticalScarecrow",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
                     "IsRecipe": true,
                     "Price": 500,
+                    "ObjectInternalName": "{{ModId}}_NauticalScarecrow",
                 },
                 "{{ModId}}_NauticalRarecrow8": {
                     "Id": "{{ModId}}_NauticalRarecrow8",
@@ -264,17 +268,19 @@
                 },
                 "{{ModId}}_SandBucksParcelRecipe": {
                     "Id": "{{ModId}}_SandBucksParcelRecipe",
-                    "ItemId": "{{ModId}}_SandBucksParcelRecipe",
+                    "ItemId": "{{ModId}}_SandBucksParcel",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
                     "IsRecipe": true,
-                    "Price": 550
+                    "Price": 550,
+                    "ObjectInternalName": "{{ModId}}_SandBucksParcel",
                 },
                 "{{ModId}}_MolluskSoupRecipe": {
                     "Id": "{{ModId}}_MolluskSoupRecipe",
-                    "ItemId": "{{ModId}}_MolluskSoupRecipe",
-                    "Condition": "RANDOM 0.5 PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
+                    "ItemId": "{{ModId}}_MolluskSoup",
+                    "Condition": "RANDOM 0.5, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
                     "IsRecipe": true,
-                    "Price": 350
+                    "Price": 350,
+                    "ObjectInternalName": "{{ModId}}_MolluskSoup",
                 },
                 "{{ModId}}_IslesRarecrow4": {
                     "Id": "{{ModId}}_IslesRarecrow4",
@@ -300,7 +306,7 @@
                 "{{ModId}}_NauticalRarecrow3": {
                     "Id": "{{ModId}}_NauticalRarecrow3",
                     "ItemId": "(BC){{ModId}}_NauticalRarecrow3",
-                    "Condition": "RANDOM 0.5 SEASON fall winter",
+                    "Condition": "RANDOM 0.5, SEASON fall winter",
                     "Price": 2000,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_NauticalRarecrow3"
@@ -309,7 +315,7 @@
                 "{{ModId}}_NauticalRarecrow5": {
                     "Id": "{{ModId}}_NauticalRarecrow5",
                     "ItemId": "(BC){{ModId}}_NauticalRarecrow5",
-                    "Condition": "RANDOM 0.5 SEASON spring summer",
+                    "Condition": "RANDOM 0.5, SEASON spring summer",
                     "Price": 3500,
                     "ActionsOnPurchase": [
                         "AddMail Host {{ModId}}_NauticalRarecrow5"
