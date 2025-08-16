@@ -75,18 +75,23 @@
                     ]
                 },
                 "{{ModId}}_BackUpShellsNecklaceRecipeTriggerActions": {
-                    // Address error in 1.3.0 where Shells Necklace isnt learned in the Gift from Willy event
-                    "Id": "{{ModId}}_BackUpShellsNecklaceRecipeTriggerActions_1_3_2",
+                    "Id": "{{ModId}}_BackUpShellsNecklaceRecipeTriggerActions_1_3_3",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_GiftFromWilly",
                     "Action": "MarkCraftingRecipeKnown Current {{ModId}}_ShellsNecklace"
                 },
                 "{{ModId}}_BackUpCoralFenceRecipeTriggerActions": {
-                    // Address error in 1.3.0 where Coral Fence isnt learned in the CoralOrderCompleted event
-                    "Id": "{{ModId}}_BackUpCoralFenceRecipeTriggerActions_1_3_2",
+                    "Id": "{{ModId}}_BackUpCoralFenceRecipeTriggerActions_1_3_3",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_CoralOrderCompleted",
                     "Action": "MarkCraftingRecipeKnown Current {{ModId}}_CoralFence"
+                },
+                "{{ModId}}_BackUpBraisedScallopRecipeTriggerActions": {
+                    // Address error in 1.3.0 where Coral Fence isnt learned in the CoralOrderCompleted event
+                    "Id": "{{ModId}}_BackUpBraisedScallopRecipeTriggerActions_1_3_3",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_BraisedScallopRecipe Received",
+                    "Action": "MarkCookingRecipeKnown Current {{ModId}}_BraisedScallop"
                 }
             }
         }
